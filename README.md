@@ -196,7 +196,28 @@ Users can view their:
 
 ---
 
-#### Phase 5: Final Design Direction
+#### Phase 5: 1st Mentor's Feedback
+After receiving some feedbacks and comments from our 1st mentor (Teh Ming En), the UI is further refined. 
+**4th draft of the Main Page/Dashboard:**
+![Main Page (4th draft)](images/Main%20Page%20(4th%20draft).jpg)
+
+To reduce the visual burden, users will now on only see:  
+- their favourite fish tank and fish at the top section
+- with their today's to-do tasks at the bottom section
+- their health statistics after manually scrolling down
+
+**3th draft of the To-do List:**<br>
+Additional refinements to the To-do List's interface: 
+![Balancing Page (3rd draft)](images/Balancing%20Page%20(3rd%20draft).jpg)
+
+**3th draft of the Balancing Page:**<br>
+Additional refinements to the Balancing Page's interface: 
+![To-do List (3rd draft)](images/To-do%20List%20(3rd%20draft).jpg)
+
+**The latest drafts of the UI are then used to finalise the designs in Figma.** 
+---
+
+#### Phase 6: Final Design Direction
 
 **Visual Direction:**
 
@@ -249,6 +270,7 @@ Users can view their:
 | 6 September 2026 | Teh Ming En | The main page should primarily allow users to view the aquarium and bubbles, while complicated information should be placed elsewhere. | The aquarium became the primary visual element of the main page, with detailed workload information separated into dedicated sections.     |
 | 6 September 2026 | Teh Ming En | Develop a more engaging explanation for why users would need the application.                                                          | The aquarium was positioned as a calming entry point, while workload intelligence provides the primary functional value.                   |
 | 6 September 2026 | Teh Ming En | Ensure that the proposed features are feasible and postpone technically difficult features where necessary.                            | The MVP scope was narrowed, with non-essential and complex features moved to future development.                                           |
+
 Main Takeaway: 
 - 6th Sep (Teh Ming En): Cutting visual burden as much as possible, prioritising features that are essential to the user experiences, putting delivering a usable MVP as the main focus before executing on ambitious plans to expand on other features.
 
@@ -354,3 +376,6 @@ The following features will be postponed if they affect the feasibility of the c
 - Complex external integrations
     
 - Advanced AI modelling
+
+
+
