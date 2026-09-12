@@ -534,7 +534,9 @@ Many features were added, most notably:
 ![To-do List (feedback for 2nd draft)](images/To-do%20List%20(feedback%20for%202nd%20draft).png)
 
 ![Balancing Page (feedback for 2nd draft)](images/Balancing%20Page%20(feedback%20for%202nd%20draft).png)
+
 ---
+
 #### Phase 4: Further Refinement
 
 **3rd draft of the Main Page/Dashboard:**
@@ -624,12 +626,12 @@ Additional refinements to the Balancing Page's interface:
     
 - Focus on the core workload-management experience
 
-### Phase 7: Second Mentor Feedback
+#### Phase 7: Second Mentor Feedback
 After receiving some feedbacks and comments from our 2nd mentor (Teng Wei Herr), the UI is further refined directly in the Figma Website/App. 
 
 ---
 
-### Phase 8: Final Demo Design
+#### Phase 8: Final Demo Design
 After both the mentor sessions and discussions, the final design is profuced for each of the app page
 
 
