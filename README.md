@@ -29,19 +29,23 @@ List of ideas that are brainstormed of and ultimately chosen/modified/postponed/
 
 | **Idea** | **Why it was dropped / kept** |
 |---|---|
-| Aquarium and Digital Companion (Chosen) | Provides a calming and approachable environment that differentiates FinDo from conventional productivity applications. Retaining users through establishing emotional connection. |
-| Task Bubbles (Chosen) | Provides a visual representation of tasks and creates a more engaging interaction when completing tasks. |
-| Workload Awareness (Chosen) | Directly addresses the core problem by helping users understand whether their workload is manageable. |
-| Behaviour-Based AI (Chosen) | Reduces the need for repeated manual input and enables personalised workload recommendations based on user behaviour. |
-| Task Planner (Chosen) | Provides the fundamental functionality required to organise and manage tasks. |
-| Recovery Activities (Chosen) | Extends task management beyond productivity by encouraging appropriate periods of recovery. |
-| Daily Check-in (Modified) | Initially considered as a manual mood and energy check-in. It was modified so that the system can increasingly infer useful information from user behaviour rather than relying heavily on manual input. |
+| Aquarium and Digital Companion (Implemented) | Provides a calming and approachable environment that differentiates Kairos from conventional productivity applications and helps establish an emotional connection with users. |
+| Task Bubbles (Dropped) | Change to fish instead (see below). The bubble-based task representation was considered too boring and was replaced with fish to create a more engaging and visually appealing interaction. |
+| Fish Tank (Implemented) | Task bubbles were changed into a fish tank concept. As users complete tasks, the fish tank water gradually becomes cleaner, providing a visual representation of task completion and progress. |
+| Workload Awareness (Implemented) | Directly addresses the core problem by helping users understand whether their workload is manageable. |
+| Behaviour-Based AI (Implemented) | Reduces the need for repeated manual input and enables personalised workload recommendations based on user behaviour. |
+| Task Planner (Dropped) | The traditional task-planning approach was removed to avoid making the application feel like a conventional productivity or to-do application. |
+| Recovery Activities (Implemented) | Extends task management beyond productivity by encouraging appropriate periods of recovery. |
+| Daily Check-in (Chosen) | Allows users to record their daily state and provides information that can support workload and well-being management. |
 | Workload Dashboard (Modified) | Retained as a supporting feature, but detailed information is separated from the main aquarium interface to prevent the user from feeling overwhelmed. |
-| Reward Centre (Chosen) | Provides motivation through a simple reward system, allowing users to earn and use rewards as they complete tasks and recovery activities. |
 | Sleep Tracking (Postponed) | Relevant to overall well-being but outside the priority scope of the MVP. |
-| Pomodoro Timer (Chosen) | Supports focused work sessions by helping users manage their time while completing tasks without adding unnecessary complexity to the main workflow. |
-| Focus Tunnel (Chosen) | Provides a dedicated environment for users to focus on important tasks and reduce distractions when they need to concentrate. |
+| Pomodoro Timer (Implemented) | Supports focused work sessions by helping users manage their time while completing tasks without adding unnecessary complexity to the main workflow. |
 | Advanced Health Tracking (Postponed) | Potentially useful for future development but introduces additional complexity that is unnecessary for the initial prototype. |
+| Deep Sprint Mode (Implemented) | Helps users focus more easily when a task cannot be rebalanced or postponed and they are required to complete it. |
+| Mood Log (Chosen) | Allows users to record their mood and provides a simple way to track changes in their emotional well-being. |
+| Coins (Chosen) | Provides a simple in-app currency that allows users to earn rewards through their activities. |
+| Store (Chosen) | Allows users to spend earned coins on available rewards (such as coral reef to decorate their aquarium), giving the reward system a clear purpose and progression. |
+| Feeding (Implemented) | Allows users to feed their pet fish, making the fish happier and strengthening the emotional connection between the them and their virtual companion. |
 
 ### 2.2 Ideation Boards
 #### Mind Map:
@@ -266,10 +270,14 @@ After receiving some feedbacks and comments from our 2nd mentor (Teng Wei Herr),
 ---
 
 #### Phase 8: Final Demo Design
-After both the mentor sessions and discussions, the final design is profuced for each of the app page
+After both the mentor sessions and discussions, the final design is profuced for each of the app page:
+- Main Dashboard
+- To-do Lists
+- Rebalancing
+- Recovery 
 
-
-
+<br>
+*Check Section 3.0 for the design*
 
 ### 2.3 Mentor Consultation
 | **Date**         | **Mentor**  | **Feedback Received**                                                                                                                  | **What Was Changed**                                                                                                                       |
@@ -306,7 +314,16 @@ Main Takeaway:
 
 ## 3. Design & Prototype
 
-UI Prototype: [ Public Link ]
+UI Prototype: https://move-check-57841680.figma.site
+<br>
+*Apps/Website used: Figma*
+
+App pages featured:
+- Main Dashboard
+- To-do Lists (Tank)
+- Rebalancing
+- Recovery
+- Profile
 
 
 ## 4. What Makes It Different
