@@ -359,6 +359,8 @@ The primary objective is sustainable productivity rather than maximising task co
 | AI Service        | External AI API              | Used to support behaviour-based analysis and personalised recommendations rather than functioning as a standalone chatbot.                                                    |
 | API Communication | REST API                     | Provides a straightforward method for communication between the frontend, backend, and supporting services.                                                                   |
 | Hosting           | Cloud-based hosting          | Allows the prototype to be demonstrated remotely without requiring local deployment.                                                                                          |
+
+<br>
 The architecture is intentionally modular so that individual technologies can be replaced if development constraints arise.
 
 
