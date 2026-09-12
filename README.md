@@ -1,4 +1,4 @@
-# [Project Name] by Project Kairos
+# FinDo by Project Kairos
 
 Team: Woon Jun Haow, Woo Shao En, Tong Hor Yee, Tan Hui Jing 
 
