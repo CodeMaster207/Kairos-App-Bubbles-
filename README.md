@@ -311,7 +311,12 @@ Main Takeaway:
 
 ## 3. Design & Prototype
 
-UI Prototype: https://www.figma.com/make/4bTOtpIrLWXSVyJlbcJ1M2/Stress---Workload-Manager-App?code-node-id=0-6&p=f&t=wjnJMaml9d3Whnah-0&fullscreen=1
+UI Prototype Link 1: https://www.figma.com/make/4bTOtpIrLWXSVyJlbcJ1M2/Stress---Workload-Manager-App?code-node-id=0-6&p=f&t=wjnJMaml9d3Whnah-0&fullscreen=1
+
+<br> 
+
+UI Prototype Link 2: https://move-check-57841680.figma.site/
+
 <br>
 *Apps/Website used: Figma*
 
