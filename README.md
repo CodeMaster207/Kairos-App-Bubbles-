@@ -4,7 +4,7 @@ Team: Woon Jun Haow, Woo Shao En, Tong Hor Yee, Tan Hui Jing 
 
 Problem Statement: Stress & Workload Manager
 
-Video Presentation: [Unlisted YouTube Link] 
+Video Presentation: https://youtu.be/tK2fiEBOn1g
 
 Presentation Slides: https://canva.link/ufxd2e7e0kf8029
 
