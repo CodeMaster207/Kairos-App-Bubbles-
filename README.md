@@ -36,7 +36,7 @@ List of ideas that are brainstormed of and ultimately chosen/modified/postponed/
 | Behaviour-Based AI (Implemented) | Reduces the need for repeated manual input and enables personalised workload recommendations based on user behaviour. |
 | Task Planner (Dropped) | The traditional task-planning approach was removed to avoid making the application feel like a conventional productivity or to-do application. |
 | Recovery Activities (Implemented) | Extends task management beyond productivity by encouraging appropriate periods of recovery. |
-| Daily Check-in (Chosen) | Allows users to record their daily state and provides information that can support workload and well-being management. |
+| Daily Check-in (Chosen) | Allows users to record their daily state and provides information that can support workload and well-being management. Integrate with emotion logs (see below) to alleviate user effort from manually clicking multiple tabs one by one. |
 | Workload Dashboard (Modified) | Retained as a supporting feature, but detailed information is separated from the main aquarium interface to prevent the user from feeling overwhelmed. |
 | Sleep Tracking (Postponed) | Relevant to overall well-being but outside the priority scope of the MVP. |
 | Pomodoro Timer (Implemented) | Supports focused work sessions by helping users manage their time while completing tasks without adding unnecessary complexity to the main workflow. |
@@ -231,9 +231,6 @@ Additional refinements to the Balancing Page's interface:
 - Aquarium
     
 - Fish
-    
-- Bubbles
-    
 
 **Core Functionality:**
 
@@ -272,7 +269,7 @@ After receiving some feedbacks and comments from our 2nd mentor (Teng Wei Herr),
 #### Phase 8: Final Demo Design
 After both the mentor sessions and discussions, the final design is profuced for each of the app page:
 - Main Dashboard
-- To-do Lists
+- To-do Lists (To-do Tank)
 - Rebalancing
 - Recovery 
 
@@ -286,7 +283,7 @@ After both the mentor sessions and discussions, the final design is profuced for
 | 6 September 2026 | Teh Ming En | Ensure that Figma can effectively communicate the proposed UI and begin developing the main functionality.                             | The aquarium and task-bubble interaction were prioritised as the main prototype experience.                                                |
 | 6 September 2026 | Teh Ming En | Focus on the main objective and postpone features such as Pomodoro and Focus Tunnel.                                                   | Pomodoro and Focus Tunnel were deprioritised to maintain a focused MVP centred on workload management.                                     |
 | 6 September 2026 | Teh Ming En | Sleep tracking does not need to be implemented at the current stage.                                                                   | Sleep tracking was moved to the future development scope.                                                                                  |
-| 6 September 2026 | Teh Ming En | The reward store does not need to be implemented at the current stage.                                                                 | The reward store was postponed to a future development phase.                                                                              |
+| 6 September 2026 | Teh Ming En | The reward store does not need to be implemented at the current stage.                                                                 | The reward store was successfuly implemented after all the core features have been developed, which finished earlier than expected.                                                                              |
 | 6 September 2026 | Teh Ming En | Avoid requiring excessive user input and consider calculating information from user behaviour.                                         | Behaviour-based analysis was prioritised to reduce manual input and support personalised recommendations.                                  |
 | 6 September 2026 | Teh Ming En | Avoid making the user interface unnecessarily complicated.                                                                             | The main interface was simplified and detailed information was moved to secondary pages.                                                   |
 | 6 September 2026 | Teh Ming En | The main page should primarily allow users to view the aquarium and bubbles, while complicated information should be placed elsewhere. | The aquarium became the primary visual element of the main page, with detailed workload information separated into dedicated sections.     |
@@ -301,7 +298,7 @@ Main Takeaway:
 |---|---|---|---|
 | 12 Sep 2026 | Teng Wei Herr | Allow users to cancel or skip a task during rebalancing if they do not want to complete it that day. | Add a **Cancel Task** option during rebalancing. |
 | 12 Sep 2026 | Teng Wei Herr | Combine today's mood log with the daily streak. | Combine both functions for a simpler user experience. |
-| 12 Sep 2026 | Teng Wei Herr | Make the aquarium's stress state more obvious, such as changing the water to red. | Enhance the aquarium's visual feedback to clearly indicate high stress. |
+| 12 Sep 2026 | Teng Wei Herr | Make the aquarium's stress state more obvious, such as changing the water to red. | Enhance the aquarium's visual feedback such as changing the water quality (color) and state of fish (healthy / death) to clearly indicate high stress. |
 | 12 Sep 2026 | Teng Wei Herr | Show the potential stress impact when adding a task. | Display the task's impact on the user's stress/workload state and show a visual reaction from the fish. |
 | 12 Sep 2026 | Teng Wei Herr | Tasks that must be completed today should appear at the top of the main page. | Prioritise **Must Do Today** tasks on the main page and simplify other information. |
 | 12 Sep 2026 | Teng Wei Herr | Keep the report concise and focus on the mind flow. | Trim unnecessary content and focus on how the team arrived at the current solution. |
@@ -314,7 +311,7 @@ Main Takeaway:
 
 ## 3. Design & Prototype
 
-UI Prototype: https://move-check-57841680.figma.site
+UI Prototype: https://www.figma.com/make/4bTOtpIrLWXSVyJlbcJ1M2/Stress---Workload-Manager-App?code-node-id=0-6&p=f&t=wjnJMaml9d3Whnah-0&fullscreen=1
 <br>
 *Apps/Website used: Figma*
 
@@ -334,9 +331,9 @@ FinDo differentiates itself by combining productivity management with workload a
 
 Rather than presenting users with a conventional task list immediately, FinDo uses an aquarium as the primary interface. This creates a calmer and more approachable environment for interacting with tasks.
 
-### Task Bubbles
+### Pet Fish Companion
 
-Tasks are represented as bubbles, providing a visual representation of workload. Completing a task can be represented through an interactive bubble, making task completion more engaging than a conventional checklist.
+Users can have their own virtual pet fish that reacts to their progress and well-being, making task management more personal and engaging.
 
 ### Workload Capacity Awareness
 
